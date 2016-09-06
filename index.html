@@ -1,106 +1,143 @@
-CTYPE html>
-<html>
-<head>
-<title>Asish Panda</title>
-<style>
-body
-{
-    background-image: url("http://www.fun54.com/wp-content/uploads/2012/02/Space-Sunset-view-from-space-view-black-background-hd-wallpapers-2560-x-1600.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-}
-a
-{
-    display: block;
-    width: 60 px;
-}
-li
-{
-    display: inline;
-    font-size: 100%;
-    float: right;
-    padding: 5px;
-    margin: 5px;
-    background-color: white;
-    border-radius: 8px ;
-    font-family: "Comic Sans MS";
-}
+<!DOCTYPE html>
+<html lang="en-us"> 
 
-h1
-{
-    color: white;
-    position: absolute;
-    left: 650px;
-    top: 80px;
-    font-size: 300%;
-    text-shadow: 4px 4px 8px grey;
-}
-p#p01
-{
-    color: white;
-    position: absolute;
-    left: 570px;
-    top: 400px;
-    font-size: 200%;
-}
-p#p02
-{
-    color: white;
-    position: absolute;
-    left: 555px;
-    top: 470px;
-    font-size: 140%;
-}
-p#p03
-{
-    color: white;
-    position: absolute;
-    left: 575px;
-    top: 510px;
-    font-size: 140%;
-}
-a:link
-{
-      color: black;
-}
-a:visited
-{
-      color: black;
-}
-a:hover
-{
-      color: #0000FF;
-}
-a:active
-{
-      color: #0000FF;
-}
-a
-{
-    display: block;
-    width: 60 px;
-}
-</style>
+<head>
+<meta charset="utf-8">
+<title>Asish Panda</title>
+<link type="text/css" rel="stylesheet" href="index_stylesheet.css"/>
 </head>
 
+<!-- main content here -->
+
 <body>
-<div id='cssmenu'>
-    <ul>
-         <li><a href="resume.pdf">Resume</a></li>
-         <li><a href="https://twitter.com/kaichogami">Twitter</a></li>
-          <li><a href="https://www.facebook.com/Aggressive.Panda?__mref=message_bubble">Facebook</a></li>
-           <li><a href="http://github.com/kaichogami">Github</a></li>
-            <li><a href="http://in.linkedin.com/in/kaichogami">Linkedin</a></li>
-             <li><a href="https://www.quora.com/Asish-Panda">Quora</a></li>
-              <li><a href="https://asishpanda.wordpress.com/">Blog</a></li>
-          </ul>
-      </div>
-      <h1> Asish Panda </h1>
-      <p id="p01">Contact Details</p> 
-      <p id="p02">asishrocks95@gmail.com</p>
-      <p id="p03">+ 91 9556502516</p>
+  <div class="main-header">
+    <div class="header-nav-bar">
+      <nav class="header-nav">
+        <div class="header-button"><a href="contact.html">Contact</a></div>
+        <div class="header-button"><a href="https://drive.google.com/open?id=0B4XyXjm8q80rZ1NDXzgyTDB6dmdTWmc5RFdpYkZLTmhKSVdr">CV</a></div>
+        <div class="header-button"><a href="https://asishpanda.wordpress.com/">Blog</a></div>
+        <div class="header-button"><a href="http://kaichogami.github.io/">Home</a></div>
+      </nav>
+    </div>
 
-      </body>
-      </html>
+      <div class="intro-pic-text">
+      <img src="https://avatars0.githubusercontent.com/u/6412770?v=3&s=460"/>
+        <!-- align para below to left -->
+        <p>Hi! If you stumbled here looking for kaichogami, that's me! Asish Panda. I am a student and I love to learn new technology or concept. My favorite language is python and I use it for almost everything, be it coding competition or machine learning application or brain signals!</p>
 
+     </div>
+    </div>
+
+  <div class="project-container">
+    <div class="project-heading">
+      <h2>Projects</h2>
+    </div>
+    <div class="project-table">
+      <table>
+        <!---3 columns per row. Add projects accordingly later-->
+        <tr>
+          <!-- Row 1 cell 1-->
+          <td>
+          <img src="http://www.martinos.org/mne/stable/_static/mne_logo.png"/>
+          </td>
+          <!-- Row 1 cell 2-->
+          <td>
+            <h3>GSoC 2016 PSF, MNE</h3>
+            <p>MNE is a software for analysis, filtering, visualization of eeg/meg signals. My project's aim was to refactor decoding module to comply with scikit-learn API.</p>
+          </td>
+          <!-- Row 1 cell 3-->
+          <td>
+            <div class="project-detail-bar">
+              <a href="https://drive.google.com/open?id=0B4XyXjm8q80rRXQzYVpqMEdCWjQ">proposal</a>
+            </div>
+            <div class="project-detail-bar">
+              <a href="https://asishpanda.wordpress.com/2016/08/15/gsoc-final-report/">blog</a>
+            </div>
+        </tr>
+            <!-- Row 2 cell 1-->
+        <tr>
+          <td>
+             <img src="http://goo.gl/ViCQCC"/>
+          </td>
+           <!-- Row 2 cell 2-->
+          <td>
+            <h3>Internship at AlienAdv, 2015</h3>
+            <p>Automating social media sites to post, message, share events for better reach to potential customers. Tested site using selenium for bugs.</p>
+          </td>
+          <!-- Row 2 cell 3-->
+          <td>
+            <div class="project-detail-bar">
+              <a href="https://www.alienadv.com/">website</a>
+            </div>
+       </tr>
+       <tr>
+           <!-- Row 3 cell 1-->
+          <td>
+            <img src="http://goo.gl/rxw0qa"/>
+          </td>
+           <!-- Row 3 cell 2-->
+           <td>
+            <h3>GSoC 2014 PSF, Sunpy</h3>
+            <p>Sunpy is a python package for solar data analysis and astropy is a general astronomical research tool. My project's aim was to integrate Units module of Astropy with Sunpy for explicit units manipulation.</p>
+          </td>
+          <!-- Row 3 cell 3-->
+          <td>
+            <div class="project-detail-bar">
+              <a href="https://drive.google.com/open?id=0B4XyXjm8q80rQjdJUVlWcUdWd0QzR3FFa1FVUUNncXFSSGdJ">proposal</a>
+            </div>
+            <div class="project-detail-bar">
+              <a href="https://sunpygsoc.wordpress.com/">blog</a>
+            </div>
+          </td>
+        </tr>
+       <tr>
+          <!-- Row 4 cell 1-->
+          <td>
+             <img src="http://s3.mangapanda.com/cover/one-piece/one-piece-m1.jpg"/>
+          </td>
+          <!-- Row 4 cell 2-->
+          <td>
+            <h3>Comicbook downloader</h3>
+            <p>Implemented a command-line interface tool to download comic(manga) book chapters from an online viewing site.</p>
+          </td>
+        <!-- Row 4 cell 3-->
+        <td>
+          <div class="project-detail-bar">
+            <a href="github">github</a>
+          </div>
+          <div class="project-detail-bar">
+            <a href="blog">blog</a>
+          </div>
+        </td>
+      </tr>
+
+        <tr>
+          <!-- Row 5 cell 1-->
+          <td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/220px-Huffman_tree_2.svg.png"/>
+          </td>
+          <!-- Row 5 cell 2-->
+          <td>
+            <h3>Huffman Compression for text files</h3>
+            <p>Created a command line interface tool to compress and decompress files based on huffman compression algorithm</p>
+          </td>
+          <!-- Row 5 cell 3-->
+          <td>
+            <div class="project-detail-bar">
+              <a href="github">github</a>
+            </div>
+            <div class="project-detail-bar">
+              <a href="blog">blog</a>
+            </div>
+          </td>
+
+        </tr>
+        
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
+    

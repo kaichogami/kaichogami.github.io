@@ -1,0 +1,218 @@
+@font-face{
+    font-family:acme;
+    src: url(Acme-Regular.ttf);
+    font-weight:bold;
+}
+
+
+.header-nav-bar{
+    padding:1px;
+    border-radius : 10px;
+    width:100%;
+    height:45px;
+}
+
+.header-nav{
+    display:inline;
+}
+
+.header-button{
+    height : 40px;
+    width : 70px;
+    border-radius:5px;
+    border: 2px solid #004040;
+    /*background-color:#00C0FF;*/
+    background-color:#F5F5DC;
+    display:table-cell;
+    float:right;
+    text-align:center;
+    margin:2px;
+    font-family:acme;
+    margin-bottom:0px;
+}
+
+.header-nav a{
+    display:inline-block;
+    padding:5px;
+    margin-top:5px;
+    text-align:center;
+    text-decoration:none;
+    color:#404040;
+    font-size:1.20em;
+}
+
+
+.intro-pic-text{
+    padding:1px;
+    height:400px;
+    width:100%;
+    border-radius:10px;
+    background-color:#F0FFFF;
+    /*background-image:url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-354457.jpg);*/
+}
+
+.intro-pic-text img{
+    float:left;
+    margin-top:70px;
+    height:200px;
+    width:200px;
+    padding:20px;
+    border-radius:1000px;
+}
+
+.intro-pic-text p{
+    float:below;
+    margin-top: 100px;
+    margin-right:10px;
+    text-align:center;
+    color: black;
+    font-size:2em;
+    font-weight:bold;
+    font-family: acme;
+
+}
+
+.project-container{
+    width:100%;
+    height:500px;
+    background-color:white;
+    border-radius:10px;
+
+}
+
+.project-heading{
+    width:100%;
+    padding:1px;
+    height:105px;
+    border-radius : 10px;
+    background-color:#F8F8FF;
+}
+
+.project-heading h2{
+    margin-top:10px;
+    font-size:4em;
+    font-family:acme;
+    font-weight:bold;
+    text-align:center;
+    color: #00C000;
+}
+
+/* TABLE */
+table {
+    width:100%;
+    margin-top:5px;
+
+}
+
+td{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+td h3{
+    text-align:center;
+    font-family:acme;
+    font-weight:bold;
+    font-size:2.2em;
+    margin: auto;
+    white-space:nowrap;
+    float:left;
+    color:#008000;
+    text-shadow: 3px 2px 8px #aaa;
+}
+
+td p{
+    text-align:justify;
+    font-size:1.5em;
+    margin-top: 70px;
+    margin-right:50px;
+    float:right;
+    font-family:acme, cursive;;
+    color:black;
+}
+
+td img{
+   width: 200px;
+   height: 150px;
+   margin-left:10px;
+   margin-right:10px;
+}
+
+
+tr td :nth-of-type(odd) {
+    width:100;
+    height:100;
+}
+
+tr td:nth-of-type(even) {
+    width:850px;
+    height:250px;
+    /*background-color:#40C0C0;*/    
+}
+
+.project-detail-bar{
+    height : 35px;
+    width : 90px;
+    border-radius:10px;
+    border: 5px solid black;
+    /*background-color:#00C0FF;
+    background-color:#400080;*/
+    display:block;
+    float:center;
+    text-align:center;
+    margin:40px;
+    font-family:acme;
+    margin-bottom:0px;
+}
+
+.project-detail-bar a{
+    text-decoration:none;
+    color:#404040;
+    font-size:1.5em;
+    padding:3px;
+}
+
+/* Contact page */
+
+.contact-bar{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 600px;
+    margin: 10px;
+}
+
+.contact-bar h3{
+    text-align:center;
+    font-size: 2.5em;
+    color: #008000;
+    text-shadow: 3px 2px 8px #aaa;
+    font-family:acme;
+}
+
+.contact-bar p{
+    text-align:center;
+    font-size: 1.5em;
+}
+
+#link-email{
+   text-align:center;
+   text-decoration:none;
+   display:block;
+   font-size:1.5em;
+   color: #1E90FF;
+}
+
+.social-logo img{
+   width: 100px;
+   height: 100px;
+   border-radius: 1000px;
+   margin: 30px;
+   text-align: center;
+   display: inline-block;
+   margin: 0 auto;
+   padding:2px;
+}
+
+.social-logo{
+   margin-left:30%;
+}
